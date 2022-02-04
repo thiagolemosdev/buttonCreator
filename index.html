@@ -5,11 +5,14 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./css/style.css">
+
   <title>Button Creator</title>
 </head>
 
 <body>
-  <section class="botao-creator">
+  <section class="button-creator">
     <form action="" id="controles">
       <label for="texto">Texto</label>
       <input type="text" name="texto" id="texto">
@@ -33,8 +36,14 @@
       <label for="fontSize">fontSize</label>
       <input type="number" name="fontSize" id="fontSize">
     </form>
-
+    <section class="resultado">
+      <button class="btn">Clique</button>
+      <pre><code class="css"></code></pre>
+    </section>
   </section>
+
+
+  <script src="./js/index.js"></script>
 </body>
 
 </html>
